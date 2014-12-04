@@ -52,7 +52,15 @@
         android:layout_height="wrap_content"
         android:text="Zaloguj się"
         android:layout_below="@id/komunikaty"
-        android:onClick="loginClicked"/>
+        android:onClick="loginClicked"
+        android:id="@+id/login"
+        />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        />
 
 
 </RelativeLayout>
